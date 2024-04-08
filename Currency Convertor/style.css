@@ -1,0 +1,59 @@
+output {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input,
+  select {
+    width: calc(50% - 15px);
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  #converted-amount {
+    width: calc(50% - 15px);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  .button-group {
+    text-align: center;
+  }
+  
+  button {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: navy;
+  }
+
+  .blue-background {
+    background-color: darkblue;
+    padding: 10px; 
+    color: white; 
+  }
+  
